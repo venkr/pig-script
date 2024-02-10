@@ -2,7 +2,7 @@
 
 This is a simple repo set up to help you script programmatic image generation.
 
-The most typical use is for `og-image` metadata, but I've often found this useful for batch-generating images ahead of time to upload elsewhere too.
+The most typical use is for `og-image` metadata, but it's also useful for compositing images to upload for the GitHub or Replicate preview images, etc.
 
 In the past, I tried to this for Sparkl, and failed to do this headlessly with [wkhtmltoimage](https://wkhtmltopdf.org/), [phantomjs](https://phantomjs.org/), and [html-to-image](https://www.npmjs.com/package/html-to-image). I finally ended up using [PIL](https://pypi.org/project/pillow/) - but that was quite a bad experience given that you can't write HTML/CSS and instead need to imperatively draw everything.
 
