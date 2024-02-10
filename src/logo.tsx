@@ -17,6 +17,8 @@ export const component = async () => {
         fontSize: 100,
         fontWeight: "lighter",
         fontFamily: "Inter",
+        margin: 0,
+        gap: "30px",
       }}
     >
       {/* @ts-ignore-next-line @vercel/og takes a buffer as src, but TypeScript doesn't know that */}
